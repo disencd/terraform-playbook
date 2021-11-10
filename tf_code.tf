@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "tf_s3" {
-  bucket = "s3_disencd"
+  bucket = "s3-disencd"
   acl = "private"
 }
